@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-display: swap;
+    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('opensans-regular-webfont.woff2') format('woff2');
+
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-display: swap;
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('opensans-semibold-webfont.woff2') format('woff2');
+}  
