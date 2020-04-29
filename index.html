@@ -6,13 +6,32 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <!-- Fonts Preloading For Faster Access -->
+  <link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <meta name="theme-color" content="#fafafa">
+  <!--inline font for better performance-->
+  <style>
+    @font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-display: swap;
+    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('opensans-regular-webfont.woff2') format('woff2');
+
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-display: swap;
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('opensans-semibold-webfont.woff2') format('woff2');
+}  
+  </style>
 </head>
 
 <body>
